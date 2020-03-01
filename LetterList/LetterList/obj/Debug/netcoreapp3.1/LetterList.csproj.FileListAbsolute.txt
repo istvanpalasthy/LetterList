@@ -1,0 +1,11 @@
+C:\Users\istva\source\repos\LetterList\LetterList\bin\Debug\netcoreapp3.1\LetterList.exe
+C:\Users\istva\source\repos\LetterList\LetterList\bin\Debug\netcoreapp3.1\LetterList.deps.json
+C:\Users\istva\source\repos\LetterList\LetterList\bin\Debug\netcoreapp3.1\LetterList.runtimeconfig.json
+C:\Users\istva\source\repos\LetterList\LetterList\bin\Debug\netcoreapp3.1\LetterList.runtimeconfig.dev.json
+C:\Users\istva\source\repos\LetterList\LetterList\bin\Debug\netcoreapp3.1\LetterList.dll
+C:\Users\istva\source\repos\LetterList\LetterList\bin\Debug\netcoreapp3.1\LetterList.pdb
+C:\Users\istva\source\repos\LetterList\LetterList\obj\Debug\netcoreapp3.1\LetterList.csprojAssemblyReference.cache
+C:\Users\istva\source\repos\LetterList\LetterList\obj\Debug\netcoreapp3.1\LetterList.AssemblyInfoInputs.cache
+C:\Users\istva\source\repos\LetterList\LetterList\obj\Debug\netcoreapp3.1\LetterList.AssemblyInfo.cs
+C:\Users\istva\source\repos\LetterList\LetterList\obj\Debug\netcoreapp3.1\LetterList.dll
+C:\Users\istva\source\repos\LetterList\LetterList\obj\Debug\netcoreapp3.1\LetterList.pdb
