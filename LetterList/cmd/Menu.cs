@@ -118,8 +118,15 @@ namespace cmd
                                  new OnlyNewMovies("2018? Az már vagy 6 éve volt."),
                                  };
                                 Console.WriteLine(allMovieConsumers[0].Question);
-                                allMovieConsumers[0].Answer = bool.Parse(Console.ReadLine());
-
+                                string stringanswer = Console.ReadLine();
+                                if (stringanswer.ToLower().Equals("true") || stringanswer.ToLower().Equals("yes"))
+                                {
+                                    allMovieConsumers[0].Answer = true;
+                                }
+                                else if (stringanswer.ToLower().Equals("false") || stringanswer.ToLower().Equals("no"))
+                                {
+                                    allMovieConsumers[0].Answer = false;
+                                }
                                 if (allMovieConsumers[0].Answer.Equals(true))
                                 {
                                     Console.WriteLine(allMovieConsumers[0].SuggestMovie(movie.MovieList));
@@ -128,7 +135,15 @@ namespace cmd
                                 {
 
                                     Console.WriteLine(allMovieConsumers[1].Question);
-                                    allMovieConsumers[1].Answer = bool.Parse(Console.ReadLine());
+                                    string stringanswer2 = Console.ReadLine();
+                                    if (stringanswer2.ToLower().Equals("true") || stringanswer2.ToLower().Equals("yes"))
+                                    {
+                                        allMovieConsumers[1].Answer = true;
+                                    }
+                                    else if (stringanswer2.ToLower().Equals("false") || stringanswer2.ToLower().Equals("no"))
+                                    {
+                                        allMovieConsumers[1].Answer = false;
+                                    }
                                     if (allMovieConsumers[1].Answer.Equals(true) || allMovieConsumers[1].Answer.Equals("yes"))
                                     {
                                         Console.WriteLine(allMovieConsumers[1].SuggestMovie(movie.MovieList));
@@ -137,7 +152,15 @@ namespace cmd
                                     {
 
                                         Console.WriteLine(allMovieConsumers[2].Question);
-                                        allMovieConsumers[2].Answer = bool.Parse(Console.ReadLine());
+                                        string stringanswer3 = Console.ReadLine();
+                                        if (stringanswer3.ToLower().Equals("true") || stringanswer3.ToLower().Equals("yes"))
+                                        {
+                                            allMovieConsumers[2].Answer = true;
+                                        }
+                                        else if (stringanswer3.ToLower().Equals("false") || stringanswer3.ToLower().Equals("no"))
+                                        {
+                                            allMovieConsumers[2].Answer = false;
+                                        }
                                         if (allMovieConsumers[2].Answer.Equals(true))
                                         {
                                             Console.WriteLine(allMovieConsumers[2].SuggestMovie(movie.MovieList));
@@ -150,7 +173,7 @@ namespace cmd
                                 }
                                
                             }
-                            catch (WrongInputException)
+                            catch (System.FormatException)
                             {
                                 Console.WriteLine("Wrong Input");
                             } 
